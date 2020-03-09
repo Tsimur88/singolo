@@ -37,6 +37,10 @@ nav li {
     font-size: 12px;
     font-weight: bold;
     list-style-type: none;
+    cursor: pointer;
+}
+a:hover {
+    color:#f06c64;
 }
 a {
     color: #ffffff;
@@ -57,11 +61,13 @@ nav li+li:before {
     border-bottom: 6px solid #ff6666;
 }
 .slider-btn.left {
+    cursor: pointer;
     position: absolute;
     top: 47%;
     left: 0%;
 }
 .slider-btn.right {
+    cursor: pointer;
     position: absolute;
     top: 47%;
     left: 98%;
@@ -74,26 +80,29 @@ nav li+li:before {
     align-items: center;
 }
 .services {
-    padding-top: 58px;
+    padding-top: 55px;
     background-color: #f2f2f2;
 }
 h1 {
     margin-bottom: 24px;
     font-family: 'Lato Black', sans-serif;
     font-size: 30px;
-    font-weight: bold;
     color: #666d89;
 }
 .services_text {
-    font-family: 'Lato-Light', sans-serif;
+    font-family: 'Lato Light', sans-serif;
     font-size: 18px;
     color:#666699;
-}
+    margin-top: 16px;
+    line-height: 29px;
+    letter-spacing: -0.05px;
+    text-align: justify;
+}    
 .services_items {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 47px;
     padding-bottom: 30px;
 }
 .services_item {
