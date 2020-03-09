@@ -58,7 +58,6 @@ nav li+li:before {
     height: 600px;
     border-bottom: 6px solid #ff6666;
     background: #f06c64;
-
 }
 .slider {
     position: relative;
