@@ -1,0 +1,112 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: "Lato Regular", Verdana, sans-serif;
+    line-height: 1.42;
+    color: #666699;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.portfolio {
+    height: 869px;
+    border-bottom: 6px solid #323746;
+    background: #2d303a;
+}
+.portfolio_info {
+    margin-bottom: 19px;
+}
+.portfolio_content {
+    padding-top: 60px;
+    padding-bottom: 57px;
+}
+.portfolio_caption {
+    margin-top: -3px;
+}
+.portfolio_caption, .about-us_caption{
+    font-size: 20px;
+    font-family: "Lato Black", Verdana, sans-serif;
+    color: #666d89;
+}
+.portfolio_description {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: "Lato Light", Verdana, sans-serif;
+    color: #666699;
+}
+.portfolio_tags {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 13px;
+}
+.tag {
+    margin-right: 10px;
+    padding: 1px 5px 2px 7px;
+    line-height: 1rem;
+    font-family: "Lato Regular", Verdana, sans-serif;
+    font-size: 12px;
+    color: #666699;
+    background: #2d303a;
+    border: 1px solid #666699;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tag:hover {
+    color:#f06c64;
+    border: 1px solid #f06c64;
+}
+.portfolio_templates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio_template {
+    margin-bottom: 13px;
+}
+.about-us {
+    background-color: #f2f2f2;
+}
+.about-us_header {
+    padding-bottom: 49px;
+}  
+.about-us_info {
+    padding-top: 56px;
+    padding-bottom: 67px;
+}
+.about-us_description {
+    padding-top: 22px;
+    font-family: Lato Light, Verdana, sans-serif;
+    font-size: 18px;
+}
+.about-us_people {
+    display: flex;
+    justify-content: space-between;
+}
+.about-us_person {
+    width: 300px;
+}
+h3 {
+    font-size: 18px;
+    font-family: "Lato Black", Vardana, sans-serif;
+    margin-bottom: 13px;
+}
+.photo {
+    margin-bottom: 5px;
+}
+figure p {
+    font-family: "Lato Regular", Verdana, sans-serif;
+    font-size: 12px;
+}
+.social-media {
+    margin-top: 26px;
+    display: flex;
+    justify-content: start;
+}
+.google, .twitter, .linkedin {
+    margin-left: 8px;
+}
