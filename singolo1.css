@@ -58,12 +58,12 @@ nav li+li:before {
 }
 .slider-btn.left {
     position: absolute;
-    top: 44%;
+    top: 47%;
     left: 0%;
 }
 .slider-btn.right {
     position: absolute;
-    top: 44.5%;
+    top: 47%;
     left: 98%;
 }
 .phone_horizontal {
@@ -74,12 +74,55 @@ nav li+li:before {
     align-items: center;
 }
 .services {
+    padding-top: 58px;
     background-color: #f2f2f2;
 }
 h1 {
-    margin: 66px 0 34px;
-    font-family: 'Lato', sans-serif;
+    margin-bottom: 24px;
+    font-family: 'Lato Black', sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #666d89;
+}
+.services_text {
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 18px;
+    color:#666699;
+}
+.services_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.services_item {
+    display: flex;
+    margin-bottom: 41.5px;
+}
+.item_image {
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+}
+.item_description {
+    width: 220px;
+    height: 85px;
+    margin-left: 19px;
+    margin-top: -4px;
+}
+.item_title {
+    font-family: 'Lato Black', sans-serif;
+    font-size: 18px;
+    color:#666699;
+}
+.item_text {
+    height: 60px;
+    /* overflow: hidden; */
+    margin-top: 7px;
+    font-size: 12px;
+    font-family: 'Lato Regular', Verdana;
+    line-height: 21.8px;
+    text-align: justify;
+    color:#666699;
 }
